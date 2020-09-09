@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image.jpg/ExamReliever-Logo.png" type="image/jpg">
+    <title>Login/Registration</title>
+</head>
+<body>
+    <header>
+        <form action="signup.php" method="post">
+        <div class="log" >
+            <h1>Registration</h1>
+                <div class="text" > 
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" placeholder="Enter your name"  name="user-name" value="" required>
+                    
+                </div>
+
+                <div class="text" >
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" placeholder="New password " name="user-pass"value=""required>
+                </div>
+                <div class="text" >
+                    <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                    <input type="email" placeholder="Email " name="user-name"value=""required >
+                </div>
+                <div class="text" >
+                    <i class="fa fa-phone-square" aria-hidden="true"></i>
+                    <input type="number" placeholder="Phone number" maxlength="10" name="user-phone"value=""required>
+                </div>
+
+                <input class="btn" type="submit" name="signup-btn" value="Sign up"> <br> <br>
+             <a href="index.html">Back</a>
+
+        </div>
+    </form>
+    </header>
+</body>
+</html>
